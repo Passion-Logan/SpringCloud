@@ -18,7 +18,7 @@ SpringCloud的版本采用了名称而非版本号的命名，这些版本号采
 
 [**详细的版本对应**]( https://start.spring.io/actuator/info )
 
-[ **spring官方对应查看网址 **]( https://start.spring.io/actuator/info )
+[ **spring官方对应查看网址**]( https://start.spring.io/actuator/info )
 
 [**json在线格式化工具**]( https://www.json.cn/ )
 
