@@ -2,6 +2,8 @@
 
 SpringCloud的版本采用了名称而非版本号的命名，这些版本号采用了伦敦地铁站的名字，根据字母表的顺序来对应版本时间顺序，例如Angel是第一个版本， Brixton是第二个版本。当SpringCloud的发布内容积累到临界点或者一个重大BUG被解决后，会发布一个"service releases"版本，简称SRX版本，比如Greenwich.SR2就是SpringCloud发布的Greenwich版本的第2个SRX版本。 
 
+[**SpringCloud Dalston中文文档**]( https://www.springcloud.cc/spring-cloud-dalston.html )
+
 **SpringCloud和SpringBoot版本对应关系**
 
 | **SpringCloud Version** | **SpringBoot Version** |
@@ -14,11 +16,11 @@ SpringCloud的版本采用了名称而非版本号的命名，这些版本号采
 |         Brixton         |         1.3.x          |
 |          Angel          |         1.2.x          |
 
-[详细的版本对应]( https://start.spring.io/actuator/info )
+[**详细的版本对应**]( https://start.spring.io/actuator/info )
 
-[ spring官方对应查看网址 ]( https://start.spring.io/actuator/info )
+[ **spring官方对应查看网址 **]( https://start.spring.io/actuator/info )
 
-[json在线格式化工具]( https://www.json.cn/ )
+[**json在线格式化工具**]( https://www.json.cn/ )
 
 |             **spring-boot-starter-parent**              | **spring-cloud-dependencies** |
 | :-----------------------------------------------------: | :---------------------------: |
@@ -43,4 +45,18 @@ SpringCloud的版本采用了名称而非版本号的命名，这些版本号采
 |          Spring Boot >=2.2.0.M4 and <=2.2.0.M5          |           Hoxton.M2           |
 |           Spring Boot >=2.2.0.BUILD-SNAPSHOT            |     Hoxton.BUILD-SNAPSHOT     |
 |                       待更新....                        |                               |
+
+ **spring-cloud-dependencies** 版本列表可查看：  
+
+ https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-dependencies 
+
+**spring-boot-starter-parent** 版本列表可查看：
+
+https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent
+
+**学习链接：**
+
+[纯洁的微笑 SpringCloud学习资料汇总]( http://www.ityouknow.com/springcloud/2016/12/30/springcloud-collect.html )
+
+[程序猿DD SpringCloud从入门到精通]( http://blog.didispace.com/spring-cloud-learning/ )
 
