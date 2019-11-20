@@ -20,26 +20,27 @@ SpringCloud的版本采用了名称而非版本号的命名，这些版本号采
 
 [json在线格式化工具]( https://www.json.cn/ )
 
-|     **spring-boot-starter-parent**      | **spring-cloud-dependencies** |
-| :-------------------------------------: | :---------------------------: |
-|              1.5.2.RELEASE              |          Dalston.RC1          |
-|              1.5.9.RELEASE              |        Edgware.RELEASE        |
-|             1.5.16.RELEASE              |          Edgware.SR5          |
-|             1.5.20.RELEASE              |          Edgware.SR5          |
-|  Spring Boot >=2.0.0.M3 and <2.0.0.M5   |          Finchley.M2          |
-|  Spring Boot >=2.0.0.M5 and <=2.0.0.M5  |          Finchley.M3          |
-|  Spring Boot >=2.0.0.M6 and <=2.0.0.M6  |          Finchley.M4          |
-|  Spring Boot >=2.0.0.M7 and <=2.0.0.M7  |          Finchley.M5          |
-| Spring Boot >=2.0.0.RC1 and <=2.0.0.RC1 |          Finchley.M6          |
-|                                         |                               |
-|                                         |                               |
-|                                         |                               |
-|                                         |                               |
-|                                         |                               |
-|                                         |                               |
-|                                         |                               |
-|                                         |                               |
-|                                         |                               |
-|                                         |                               |
-|                                         |                               |
+|             **spring-boot-starter-parent**              | **spring-cloud-dependencies** |
+| :-----------------------------------------------------: | :---------------------------: |
+|                      1.5.2.RELEASE                      |          Dalston.RC1          |
+|                      1.5.9.RELEASE                      |        Edgware.RELEASE        |
+|                     1.5.16.RELEASE                      |          Edgware.SR5          |
+|                     1.5.20.RELEASE                      |          Edgware.SR5          |
+|          Spring Boot >=2.0.0.M3 and <2.0.0.M5           |          Finchley.M2          |
+|          Spring Boot >=2.0.0.M5 and <=2.0.0.M5          |          Finchley.M3          |
+|          Spring Boot >=2.0.0.M6 and <=2.0.0.M6          |          Finchley.M4          |
+|          Spring Boot >=2.0.0.M7 and <=2.0.0.M7          |          Finchley.M5          |
+|         Spring Boot >=2.0.0.RC1 and <=2.0.0.RC1         |          Finchley.M6          |
+|         Spring Boot >=2.0.0.RC2 and <=2.0.0.RC2         |          Finchley.M7          |
+|     Spring Boot >=2.0.0.RELEASE and <=2.0.0.RELEASE     |          Finchley.M9          |
+|     Spring Boot >=2.0.1.RELEASE and <2.0.2.RELEASE      |         Finchley.RC1          |
+|     Spring Boot >=2.0.2.RELEASE and <2.0.3.RELEASE      |         Finchley.RC2          |
+| Spring Boot >=2.0.3.RELEASE and <2.0.999.BUILD-SNAPSHOT |         Finchley.SR4          |
+|   Spring Boot >=2.0.999.BUILD-SNAPSHOT and <2.1.0.M3    |    Finchley.BUILD-SNAPSHOT    |
+|        Spring Boot >=2.1.0.M3 and <2.1.0.RELEASE        |         Greenwich.M1          |
+|  Spring Boot >=2.1.0.RELEASE and <2.1.9.BUILD-SNAPSHOT  |         Greenwich.SR2         |
+|    Spring Boot >=2.1.9.BUILD-SNAPSHOT and <2.2.0.M4     |   Greenwich.BUILD-SNAPSHOT    |
+|          Spring Boot >=2.2.0.M4 and <=2.2.0.M5          |           Hoxton.M2           |
+|           Spring Boot >=2.2.0.BUILD-SNAPSHOT            |     Hoxton.BUILD-SNAPSHOT     |
+|                       待更新....                        |                               |
 
