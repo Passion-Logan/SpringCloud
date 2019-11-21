@@ -32,10 +32,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <dependency>
+
+        <!-- spring提供的监控模块 -->
+        <!-- 健康监控模块：可以对应用系统进行配置查看、相关功能的统计等，如果采用HTTP调用的方式，需要配合spring-boot-starter-web模块使用 -->
+        <!--<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

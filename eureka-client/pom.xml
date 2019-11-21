@@ -25,6 +25,7 @@
         </dependency>
 
         <!-- SpringCloud -->
+        <!-- eureka客户端依赖 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
