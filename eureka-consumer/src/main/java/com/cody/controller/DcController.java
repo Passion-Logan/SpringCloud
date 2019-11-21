@@ -24,11 +24,15 @@ public class DcController {
     @Autowired
     RestTemplate restTemplate;
 
-    
+    /**
+     * 用于消费eureka-client提供的接口
+     *
+     * @return
+     */
     @GetMapping("consumer")
     public String dc() {
         ServiceInstance serviceInstance = loadBalancerClient.choose("eureka-client");
-        String url= "http://" + serviceInstance.getHost() + ":" + serviceInstance.getPort() + "/dc";
+        String url = "http://" + serviceInstance.getHost() + ":" + serviceInstance.getPort() + "/dc";
         System.out.println(url);
         return restTemplate.getForObject(url, String.class);
     }
